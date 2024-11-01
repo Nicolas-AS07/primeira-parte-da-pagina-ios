@@ -1,0 +1,140 @@
+@font-face {
+    font-family: poopins-black;
+    src: url(font/poppins-black-maisfontes.afea/poppins-black.ttf);
+}
+@font-face {
+    font-family: poopins-medium;
+    src: url(font/poppins-medium-maisfontes.424c/poppins-medium.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav1 ul {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center;
+
+}
+
+.nav1 ul li {
+   margin: 37px;
+}
+
+.nav1 ul li a{
+
+    color: #000000; 
+    text-decoration: none; 
+    font-size: 20px;
+    font-family: poopins-medium;
+
+}
+
+
+
+.pan{
+    color: #000000; 
+    font-size: 35px;
+    font-family: poopins-black;
+}
+
+button{
+    background-color: #000000;
+    color: #ffff;
+    border: 30px;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+button:hover{
+    border: 30px;
+    padding: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.container{
+    background-color: #c2c8da;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.texto{
+    text-align: justify;
+}
+
+.texto h1{
+    font-family: poopins-black;
+    font-size: 4em;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.texto h2{
+    font-family: poopins-medium;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.but2{
+    margin-top: 50px;
+    border: 30px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.but2:hover{
+    background-color: #413e3e;
+    font-size: 15px;
+}
+
+
+
+.nav2{
+    background-color: #E6C744;
+    
+    
+}
+
+.nav2 ul {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.nav2 ul li {
+   margin: 37px;
+   
+}
+
+.nav2 ul li a{
+    color: #000000; 
+}
+
+.amz{
+    padding-top: 30px;
+}
+
+.levi{
+    padding-top: 20px;
+}
+
+.shop{
+    padding-top: 20px;
+}
+
+.hm{
+    padding-top: 20px;
+}
